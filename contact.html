@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device , initial-scale 1.0">
+	<title>comweb</title>
+	<link rel="stylesheet" type="text/css" href="projekti.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+
+<link href='https://css.gg/home-alt.css' rel='stylesheet'>
+<link href='https://css.gg/facebook.css' rel='stylesheet'>
+<link href='https://css.gg/instagram.css' rel='stylesheet'>
+<link href='https://css.gg/twitter.css' rel='stylesheet'>
+<link href='https://css.gg/google.css' rel='stylesheet'>
+<link href='https://css.gg/phone.css' rel='stylesheet'>
+
+<script src="jquery-3.6.0.js"></script>
+<script src="projekti.js"></script>
+
+<script type="text/javascript">
+		function logoClick() {
+  alert("Opening a New Tab")
+}
+</script>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+	<header>
+	<section class="header">
+		<nav>
+			<a id="logo" onclick="logoClick()" href="projekti.html" target="_blank"><img src="logo.png"></a>
+            <div class="nav-links">
+            	
+            	<ul>
+            		<li><a href="projekti.html">HOME</a></li>
+            		<li><a href="about.html">ABOUT</a></li>
+            		<li><a href="services.html">SERVICES</a></li>
+            		<li><a href="blog.html">BLOG</a></li>
+            		<li><a href="contact.html">CONTACT</a></li>
+            		
+            	</ul>
+            </div>
+
+		</nav>
+
+<div class="text-box">
+	<h1>Contact Us</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+
+	<a href="contact.html" class="hero-btn">Visit Us To Know More</a>
+
+
+</div>
+</section>
+</header>
+
+<section class="location">
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.6021831452676!2d21.164957951600755!3d42.64859287906631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ec1b0cdc52b%3A0xdc5147a159d868a9!2sFakulteti%20i%20Inxhinieris%C3%AB%20Elektrike%20dhe%20Kompjuterike!5e0!3m2!1sen!2s!4v1637574442982!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	
+
+
+
+</section>
+
+<section class="contact-us">
+	
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="gg-home-alt" style="color: #f44336 ;margin: 10px; margin-right: 30px;"></i>
+				<span>
+					<h5>Agim Ramadani, Fakulteti Teknik</h5>
+					<p>Prishtine, Kosove</p>
+					<p id="geo">Get Your Current Location</p>
+					<button class="red-btn hero-btn" onclick="getLocation()">Get It</button>
+				</span>
+			</div>
+
+			<div>
+				<i class="gg-phone" style="color: #f44336;margin: 10px; margin-right: 30px;"></i>
+				<span>
+					<h5>+38301234567</h5>
+					<p>Monday to Saturday, 9AM to 5PM</p>
+				</span>
+			</div>
+
+			<div>
+				<i class="gg-google" style="color: #f44336;margin: 10px; margin-right: 30px;"></i>
+				<span>
+					<h5><a href="mailto:companywebsite@gmail.com">companywebsite@gmail.com</a></h5>
+					<p>Email Us</p>
+				</span>
+			</div>
+
+			
+			
+		</div>
+
+		<div class="contact-col">
+			<form action="">
+				<input  id="tryCatch1" type="text" placeholder="Enter your name" autocomplete="off">
+				<input id="tryCatch2" type="email" placeholder="Enter your email" autocomplete="off">
+        <input  id="tryCatch3" type="password" placeholder="Password"
+        pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$/ 
+ autocomplete="off" >
+
+
+
+
+<input list="browsers" name="browser" id="browser" placeholder="Which Service Are You Interested In">
+  <datalist id="browsers">
+  	<option value="ServiceAlpha">
+    <option value="ServiceBeta">
+    <option value="ServiceDelta">
+  
+  </datalist>
+   
+
+
+
+   
+     
+<div>
+
+  <form>
+    <label class="radio-inline">
+      <input type="radio" name="optradio" checked>Service Alpha &nbsp&nbsp &nbsp&nbsp 
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">Service Beta &nbsp&nbsp &nbsp&nbsp
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">Service Delta  &nbsp&nbsp&nbsp&nbsp
+    </label>
+
+    
+
+ <label class="radio-inline">
+      <input type="checkbox" name="optradio">Hiring  &nbsp&nbsp&nbsp&nbsp
+    </label>
+
+<label class="radio-inline">
+      <input type="checkbox" name="optradio">Complaint  
+    </label>
+
+  </form>
+
+  </div>
+
+
+
+
+
+
+
+				<input type="text" placeholder="Enter your subject" autocomplete="off">
+				<textarea rows="8" placeholder="message" required autocomplete="off"></textarea>
+
+				<button type="submit" class=" hero-btn red-btn" onclick="tryCatch()">Send Message</button>
+			</form>
+
+		</div>
+
+	</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section class="cta">
+	<h1>HIRE US</h1>
+	<a href="contact.html" class="hero-btn">CONTACT US</a>
+	<button class="hero-btn" onclick="window.print()">Print this page</button>
+
+	
+
+
+</section>
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit ameteprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<div class="icons">
+	    <a href="https://www.facebook.com/" target="_blank"><i class="gg-facebook"></i></a>
+		<a href="https://twitter.com/" target="_blank"><i class="gg-twitter"></i></a>
+		<a href="https://www.instagram.com/" target="_blank"><i class="gg-instagram"></i></a>
+		<a href="https://www.google.com/" target="_blank"><i class="gg-google"></i></a>
+
+
+	</div>
+	<br>
+	<address>Made by <b><i><u><abbr title="Ardi Besim Lulaj">Ardi Lulaj</abbr></u></i></b></address>
+
+
+
+</section>
+
+<script>
+var geoL = document.getElementById("geo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.watchPosition(showPosition);
+  } else { 
+    geoL.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+    
+function showPosition(position) {
+    geoL.innerHTML="Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+
+
+
+</body>
+
+
+</html>

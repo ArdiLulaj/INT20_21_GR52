@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device , initial-scale 1.0">
+	<title>comweb</title>
+	<link rel="stylesheet" type="text/css" href="projekti.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+
+<link href='https://css.gg/home-alt.css' rel='stylesheet'>
+<link href='https://css.gg/facebook.css' rel='stylesheet'>
+<link href='https://css.gg/instagram.css' rel='stylesheet'>
+<link href='https://css.gg/twitter.css' rel='stylesheet'>
+<link href='https://css.gg/google.css' rel='stylesheet'>
+
+<script src="jquery-3.6.0.js"></script>
+<script src="projekti.js"></script>
+
+
+<script type="text/javascript">
+		function logoClick() {
+  alert("Opening a New Tab")
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style>
+mark { 
+  background-color: #33ccbd;
+  text-transform:uppercase ;
+
+}
+</style>
+
+
+
+<style> 
+canvas.a {
+ 
+  transform:rotateX(20deg);
+  transform:rotateY(20deg);
+  transform:rotateZ(1deg);
+}
+
+svg.b {
+  
+   transform:skew(170deg,180deg);
+}
+
+svg.c {
+  
+  transform: scale(1.3,1.3);
+}
+
+
+
+  @keyframes animacioniINT 
+      {
+        0%    {background-color: red;}
+        25%  {background-color: blue;}
+        50% {background-color: blueviolet;}
+        75% {background-color: cadetblue;}
+        100% {background-color: chocolate;}
+      }
+       #div1,#div2
+       {
+            width:200px;
+            height: 100px;
+            background-color: aqua;
+            border:1px solid red; 
+            animation: animacioniINT 10s;
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+       }
+
+#section1{
+	column-count: 4;
+	column-gap: 5px;
+
+	box-sizing: border-box;
+
+	outline: 1px solid black;
+  outline-offset: 35px;
+
+
+  
+}
+
+
+</style>
+
+
+
+
+
+
+</head>
+
+<body>
+	<header>
+	<section class="header">
+		<nav>
+			<a id="logo" onclick="logoClick()" href="projekti.html" target="_blank"><img id="logoimg" src="logo.png"></a>
+            <div class="nav-links">
+            	
+            	<ul>
+            		<li><a href="projekti.html">HOME</a></li>
+            		<li><a href="about.html">ABOUT</a></li>
+            		<li><a href="services.html">SERVICES</a></li>
+            		<li><a href="blog.html">BLOG</a></li>
+            		<li><a href="contact.html">CONTACT</a></li>
+            		
+            	</ul>
+            
+            </div>
+
+		</nav>
+
+<div class="text-box">
+	<h1>Blog</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+	<a href="contact.html" class="hero-btn">Visit Us To Know More</a>
+
+
+</div>
+
+	</section>
+</header>
+
+<section class="blog">
+	
+<article>
+	<h3>Blog Info</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+
+
+<article>
+	<p id="mark" onclick="mark()" onmouseover="regEx()" ><mark style="color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+	 Ut enim ad minim veniam,
+	quis nostrud exeriat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mark></p>
+</article>
+
+
+<article>
+	<p id="pstyle" onclick="pStyle()">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehendet anim id est laborum.</p>
+
+	              <script>
+                function pStyle() {
+                document.getElementById("pstyle").style.fontSize = "15px"; 
+                document.getElementById("pstyle").style.color = "black";
+                document.getElementById("pstyle").style.backgroundColor = "lightblue";        
+                 }
+                </script>
+
+
+
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+
+
+
+	<table class="calendar" cellspacing="1" cellpadding="1">
+		<caption>
+			<dl>
+  <dt>Green</dt>
+  <dd>-We Are Open</dd>
+  <dt>Red</dt>
+  <dd>-We Are Closed</dd>
+</dl>
+</caption>
+<thead>
+  <tr>
+    <th class="december" colspan="7">DECEMBER</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="days">M</td>
+    <td class="days">T</td>
+    <td class="days">W</td>
+    <td class="days">T</td>
+    <td class="days">F</td>
+    <td class="days">S</td>
+    <td class="days">S</td>
+  </tr>
+  <tr>
+    <td class="missing"></td>
+    <td class="missing"></td>
+    <td class="open">1</td>
+    <td class="open">2</td>
+    <td class="open">3</td>
+    <td class="closed">4</td>
+    <td class="closed">5</td>
+  </tr>
+  <tr>
+    <td class="open">6</td>
+    <td class="open">7</td>
+    <td class="open">8</td>
+    <td class="open">9</td>
+    <td class="open">10</td>
+    <td class="closed">11</td>
+    <td class="closed">12</td>
+  </tr>
+  <tr>
+    <td class="open">13</td>
+    <td class="open">14</td>
+    <td class="open">15</td>
+    <td class="open">16</td>
+    <td class="open">17</td>
+    <td class="closed">18</td>
+    <td class="closed">19</td>
+  </tr>
+  <tr>
+    <td class="open">20</td>
+    <td class="open">21</td>
+    <td class="open">22</td>
+    <td class="open">23</td>
+    <td class="closed">24</td>
+    <td class="closed">25</td>
+    <td class="closed">26</td>
+  </tr>
+  <tr>
+    <td class="open">27</td>
+    <td class="open">28</td>
+    <td class="open">29</td>
+    <td class="open">30</td>
+    <td class="closed">31</td>
+    <td class="missing"></td>
+    <td class="missing"></td>
+  </tr>
+</tbody>
+</table>
+
+
+</section>
+<br><br>
+
+
+
+<section class="canvas" id="section1" style="display:none;">
+		
+<canvas id="myCanvas" class="a">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "40px Arial";
+ctx.fillText("Company C",45,80);
+</script>
+			
+		
+		
+
+			<svg height="190" width="500" class="b">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">COM</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+			
+
+
+<svg width="300" height="200" class="c">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:limegreen;stroke-width:5;" />
+</svg>
+
+
+
+
+
+
+<section>
+
+
+<style>
+#div1, #div2 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+
+
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="logo.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+	</section>
+
+
+</section>
+
+
+
+<section class="cta">
+	<h1>HIRE US</h1>
+	<a href="contact.html" class="hero-btn">CONTACT US</a>
+	
+
+
+</section>
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit ameteprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<div class="icons">
+		  <a href="https://www.facebook.com/" target="_blank"><i class="gg-facebook"></i></a>
+		<a href="https://twitter.com/" target="_blank"><i class="gg-twitter"></i></a>
+		<a href="https://www.instagram.com/" target="_blank"><i class="gg-instagram"></i></a>
+		<a href="https://www.google.com/" target="_blank"><i class="gg-google"></i></a>
+
+
+
+	</div>
+	<br>
+	 <address>Made by <b><i><u><abbr title="Ardi Besim Lulaj">Ardi Lulaj</abbr></u></i></b></address>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
